@@ -1,0 +1,29 @@
+# Git 学习笔记
+# Git 学习笔记
+## 这次要干什么
+生成 SSH 密钥，用 SSH 连上 GitHub，把我电脑上写好的文件传到网上的仓库里。
+
+## 一、配置 SSH Key
+1. 打开 Git Bash
+2. 敲命令：ssh-keygen -t ed25519 -C "你的github邮箱"
+3. 后面全部直接回车，不用设置密码
+4. 找到公钥文件 id_ed25519.pub，把里面所有文字复制
+5. 去 GitHub 设置里找到 SSH and GPG keys，点新增，粘贴进去保存
+6. 测试能不能连上：ssh -T git@github.com，出现成功提示就是弄好了
+
+## 二、把仓库下载到自己电脑
+1. 在 GitHub 复制仓库的 SSH 地址
+2. git clone 粘贴的地址
+3. cd 仓库名字，进到这个仓库文件夹里面
+
+## 三、新建文件、保存、上传（hello.md 的流程）
+1. 新建 hello.md 文件
+2. git add hello.md：告诉 Git，这个文件我要提交上传
+3. git commit -m "add hello.md"：打包这次改动，写一句备注，方便以后看
+4. git pull --no-edit：先拉取网上最新内容，不然上传的时候容易被拒绝
+5. git push：把我这边改好的东西传到 GitHub 网上仓库
+
+## 踩过的坑
+- push 上传被拒绝：网上仓库有别人/别的地方更新过内容，我这边不是最新的，要先 pull 拉一下再上传
+- 突然弹出 nano 编辑页面：合并的时候跳出来的，很容易卡住，有时候可能Ctrl+x也退不出来，后面加 --no-edit 就可以自动处理，不弹出这个窗口
+- 提示不是 git 仓库：我没进到正确的文件夹，要用 cd 切到仓库目录再敲 git 命令
