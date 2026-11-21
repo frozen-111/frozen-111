@@ -1,8 +1,6 @@
 # Git 学习笔记
-<<<<<<< HEAD
 - 基础概念：git开源免费的软件，功能是版本控制，git仓库每个文件阶段都是可回溯的，每一次改动都被记录。
 ## 这次要干什么
-=======
 > 参考文献：
  > [Git+Github核心概念大串讲](https://www.bilibili.com/video/BV1ySLc6QEcB?vd_source=eb8cf482f11927ebcf85fbab806d25b3)
  > [VS Code中使用Markdown书写](https://b23.tv/R6lGIDx)
