@@ -31,3 +31,5 @@
 [问题解决记录](https://github.com/frozen-111/tasks/blob/747271fd7cd418a85d4506f6ec1e6cd68b41a180/trouble.md)
 
 [Git提交练习文档](https://github.com/frozen-111/tasks/blob/b04d125c4666dadf9ce59d2a9a28c4877d5d21c8/Git-commit.md)
+
+[学习中的其他思考](
