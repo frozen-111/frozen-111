@@ -5,7 +5,6 @@
  > [Git+Github核心概念大串讲](https://www.bilibili.com/video/BV1ySLc6QEcB?vd_source=eb8cf482f11927ebcf85fbab806d25b3)
  > [VS Code中使用Markdown书写](https://b23.tv/R6lGIDx)
 ## 任务一
->>>>>>> 30d55eeabb454d0abe69ac5fa447f7b81ee8d703
 生成 SSH 密钥，用 SSH 连上 GitHub，把我电脑上写好的文件传到网上的仓库里。
 
 ## 一、配置 SSH Key
