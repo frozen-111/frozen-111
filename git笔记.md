@@ -42,8 +42,18 @@ git pull --no-edit
 git push
 
 ### 用vscode代替nano的流程
-1. 
-
+1. 先在VScode中下载markdown相关的插件
+2. 书写：在桌面新建文件夹，通过code打开
+3. 打开新建文件，注意后缀为“.md”
+4. 上传：打开gitbash，进入桌面存放的文件夹
+ - cd /c/Users/用户名/Desktop/Note
+ - git status:查看当前状态
+ - 若不是git仓库，先初始化+绑定远程仓库：git init;git remote add origin git@github.com:你的用户名/仓库名.git 
+5. 加入暂存区：git add
+6. git commit -m“上传Markdown笔记”
+7. git pull --no-edit
+8. 首次推送：git push -u origin main
+   
 ## 踩过的坑
 - push 上传被拒绝：网上仓库有别人/别的地方更新过内容，我这边不是最新的，要先 pull 拉一下再上传
 - 突然弹出 nano 编辑页面：合并的时候跳出来的，很容易卡住，有时候可能Ctrl+x也退不出来，后面加 --no-edit 就可以自动处理，不弹出这个窗口
