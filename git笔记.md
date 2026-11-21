@@ -15,7 +15,7 @@
 2. git clone 粘贴的地址
 3. cd 仓库名字，进到这个仓库文件夹里面
 
-## 三、新建文件、保存、上传（hello.md 的流程）
+### 三、新建文件、保存、上传（hello.md 的流程）
 1. 新建 hello.md 文件
 2. git add hello.md：告诉 Git，这个文件我要提交上传
 3. git commit -m "add hello.md"：打包这次改动，写一句备注，方便以后看
