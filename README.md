@@ -20,4 +20,10 @@
 > 学习收获：m0nica 的主页图文搭配恰当灵活，分区清晰；然后caneco 是极简风格，去除多余装饰，信息一目了然。所以我们也可以在自己的主页上加一点emoji，分点，让整体看起来灵活且有分明的结构
 
 ## 我的学习笔记
-[任务](https://github.com/frozen-111/tasks.git)
+[任务tasks](https://github.com/frozen-111/tasks.git)
+
+[hello.md]
+
+[Git学习笔记]
+
+[Github学习笔记]
