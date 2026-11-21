@@ -27,3 +27,5 @@
 [Git学习笔记](https://github.com/frozen-111/frozen-111/blob/06f9a37def19da1e1d4852590094e67a5d156894/git%E7%AC%94%E8%AE%B0.md)
 
 [Github学习笔记](https://github.com/frozen-111/tasks/blob/274d88c93eb63881b53717a4ca15b54612886e1e/github-notes.md)
+
+[问题解决记录](https://github.com/frozen-111/tasks/blob/747271fd7cd418a85d4506f6ec1e6cd68b41a180/trouble.md)
