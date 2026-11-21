@@ -32,4 +32,4 @@
 
 [Git提交练习文档](https://github.com/frozen-111/tasks/blob/b04d125c4666dadf9ce59d2a9a28c4877d5d21c8/Git-commit.md)
 
-[学习中的其他思考](
+[学习中的其他思考](https://github.com/frozen-111/tasks/blob/1a3f62d1a5d3913570ed2d3f3cfb58b3385e6efd/other-thoughts.md)
